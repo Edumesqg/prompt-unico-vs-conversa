@@ -1,0 +1,183 @@
+{
+  "sharded-GSM8K/1011": {
+    "question": "Um tanque tem capacidade de 18000 galões. Wanda e a Sra. B decidiram bombear água de um lago para encher o tanque em dois dias. No primeiro dia, trabalhando em turnos, Wanda encheu 1/4 da capacidade do tanque com água, e a Sra. B bombeou 3/4 da quantidade de água que Wanda bombeou para o tanque naquele dia. No segundo dia, Wanda bombeou 2/3 da quantidade de água que bombeou no dia anterior, enquanto a Sra. B bombeou apenas 1/3 do número de galões que bombeou no primeiro dia. Quantos galões de água ainda faltam para o tanque ficar cheio?",
+    "answer": "No primeiro dia, Wanda bombeou 1/4*18000 galões = <<1/4*18000=4500>>4500 galões de água.\nNo mesmo dia, a Sra. B bombeou 3/4*4500 galões = <<3/4*4500=3375>>3375 galões de água para o tanque.\nJuntas, elas bombearam 3375 galões + 4500 galões = <<3375+4500=7875>>7875 galões no primeiro dia.\nNo segundo dia, Wanda bombeou 2/3 * 4500 galões = <<2/3*4500=3000>>3000 galões.\nA Sra. B também bombeou 3375 galões * 1/3 = <<3375*1/3=1125>>1125 galões.\nJuntas, no segundo dia, elas bombearam 3000 galões + 1125 galões = <<3000+1125=4125>>4125 galões.\nNos dois dias, elas bombearam um total de 4125 galões + 7875 galões = <<4125+7875=12000>>12000 galões.\nA quantidade de galões que ainda falta para o tanque ficar cheio é 18000 galões - 12000 galões = <<18000-12000=6000>>6000 galões.\n#### 6000",
+    "shards": [
+      {"shard_id": 1, "shard": "quantos galões de água ainda faltam para encher o tanque?"},
+      {"shard_id": 2, "shard": "o tanque comporta até 18000 galões de água."},
+      {"shard_id": 3, "shard": "Wanda e a Sra. B estão tentando encher o tanque em dois dias com água de um lago."},
+      {"shard_id": 4, "shard": "no primeiro dia, Wanda bombeou 1/4 da capacidade total do tanque."},
+      {"shard_id": 5, "shard": "no mesmo dia, a Sra. B bombeou 3/4 da quantidade que Wanda bombeou."},
+      {"shard_id": 6, "shard": "no segundo dia, Wanda bombeou 2/3 do que tinha bombeado no primeiro dia."},
+      {"shard_id": 7, "shard": "no segundo dia, a Sra. B bombeou apenas 1/3 do que tinha bombeado no primeiro dia."}
+    ]
+  },
+  "sharded-GSM8K/144": {
+    "question": "Kim começou o próprio negócio de faxina e está calculando quanto lucro terá com os clientes. Ele já tem 3 clientes, mas está conversando com outros 5 clientes em potencial e se sente confiante o bastante para incluí-los nos cálculos. A casa de cada cliente vai precisar de 2 garrafas de alvejante e um pacote de panos para a limpeza. As garrafas de alvejante custam $2 cada e os pacotes de panos custam $5 cada. Essas são as únicas despesas dele. Ele calcula que a renda total de cada semana será $92. Lucro é a diferença entre a renda total e as despesas totais, então quanto lucro, em dólares, Lucas terá a cada semana?",
+    "answer": "Lucas conta um total de 3 clientes confirmados + 5 clientes em potencial = <<3+5=8>>8 clientes.\nA cada semana, ele vai precisar de um total de 8 clientes * 2 garrafas de alvejante por cliente = <<8*2=16>>16 garrafas de alvejante.\nA cada semana, ele também vai precisar de um total de 8 clientes * 1 pacote de panos por cliente = <<8*1=8>>8 pacotes de panos.\nAs garrafas de alvejante vão custar 16 garrafas de alvejante * $2 por garrafa de alvejante = $<<16*2=32>>32.\nOs pacotes de panos vão custar 8 pacotes de panos * $5 por pacote de panos = $<<8*5=40>>40.\nEntão, a cada semana, as despesas totais de Lucas serão $32 de alvejante + $40 de pacotes de panos = $<<32+40=72>>72.\nO lucro dele será, portanto, $92 de renda total - $72 de despesas totais = $<<92-72=20>>20.\n#### 20",
+    "shards": [
+      {"shard_id": 1, "shard": "me ajuda a calcular o lucro semanal do Kim?"},
+      {"shard_id": 2, "shard": "Kim começou há pouco um negócio de faxina."},
+      {"shard_id": 3, "shard": "ele está tentando descobrir quanto lucro vai ter com os clientes."},
+      {"shard_id": 4, "shard": "no momento, ele tem 3 clientes."},
+      {"shard_id": 5, "shard": "ele também está em conversa com 5 novos clientes em potencial."},
+      {"shard_id": 6, "shard": "ele se sente confiante de que esses clientes em potencial vão se tornar clientes de fato, então está contando com eles."},
+      {"shard_id": 7, "shard": "cada casa precisa de 2 garrafas de alvejante para a limpeza."},
+      {"shard_id": 8, "shard": "além disso, cada casa também precisa de um pacote de panos."},
+      {"shard_id": 9, "shard": "o preço de cada garrafa de alvejante é $2."},
+      {"shard_id": 10, "shard": "cada pacote de panos custa $5."},
+      {"shard_id": 11, "shard": "Kim espera ganhar $92 no total a cada semana com o trabalho."},
+      {"shard_id": 12, "shard": "lucro é simplesmente a renda total menos as despesas totais que ele tem."}
+    ]
+  },
+  "sharded-GSM8K/976": {
+    "question": "Sunny está vendendo pão de mel e torta de maçã para uma arrecadação. No sábado, ele vendeu 10 caixas de pão de mel e 4 caixas a menos de torta de maçã do que no domingo. No domingo, ele vendeu 5 caixas a mais de pão de mel do que no sábado e 15 caixas de torta de maçã. Se o pão de mel custa $6 e a torta de maçã custa $15, quanto Sunny ganhou nos dois dias?",
+    "answer": "Ele vendeu 10 + 5 = <<10+5=15>>15 caixas de pão de mel no domingo.\nO total de caixas de pão de mel que Sunny vendeu é 10 + 15 = <<10+15=25>>25.\nSunny ganhou 25 x $6 = $<<25*6=150>>150 com a venda de pão de mel.\nEle vendeu 15 - 4 = <<15-4=11>>11 caixas de torta de maçã no sábado.\nO total de caixas de torta de maçã que Sunny vendeu é 15 + 11 = <<15+11=26>>26.\nEle ganhou 26 x $15 = $<<26*15=390>>390 com a venda de torta de maçã.\nAssim, Sunny ganhou $150 + $390 = $<<150+390=540>>540 nos dois dias.\n#### 540",
+    "shards": [
+      {"shard_id": 1, "shard": "quanto Sunny ganhou no fim de semana?"},
+      {"shard_id": 2, "shard": "Sunny está fazendo uma arrecadação vendendo pão de mel e tortas de maçã."},
+      {"shard_id": 3, "shard": "no sábado, Sunny vendeu 10 caixas de pão de mel."},
+      {"shard_id": 4, "shard": "no sábado, ele vendeu 4 caixas a menos de torta de maçã do que vendeu no domingo."},
+      {"shard_id": 5, "shard": "no domingo, Sunny vendeu 5 caixas a mais de pão de mel em comparação com o que vendeu no sábado."},
+      {"shard_id": 6, "shard": "e no domingo, ele vendeu 15 caixas de torta de maçã."},
+      {"shard_id": 7, "shard": "cada caixa de pão de mel custa $6."},
+      {"shard_id": 8, "shard": "cada caixa de torta de maçã custa $15."}
+    ]
+  },
+  "sharded-GSM8K/369": {
+    "question": "44 formandos precisam receber prêmios. Cada formando recebe uma moldura que custa $20. Cada moldura precisa ser gravada com o logotipo, por um custo adicional de 20% por moldura. 2 dos formandos também vão receber broches de $5. 1/4 dos formandos são oficiais e vão precisar receber cordões que custam $12 cada. Quanto será gasto com os presentes dos formandos?",
+    "answer": "O custo por moldura é $20 * 1.20 = $<<20*1.20=24>>24.\nO custo total das molduras dos formandos é 44 formandos * $24 = $<<44*24=1056>>1056.\nO custo dos broches será 2 formandos * $5 = $<<2*5=10>>10.\nO número de formandos que recebem cordões é 1/4 * 44 = <<1/4*44=11>>11 formandos.\nO custo total dos cordões é 11 formandos * $12 = $<<11*12=132>>132.\nO custo total dos presentes para os formandos é $1056 + $10 + $132 = $<<1056+10+132=1198>>1198.\n#### 1198",
+    "shards": [
+      {"shard_id": 1, "shard": "quanto será gasto com os presentes dos formandos?"},
+      {"shard_id": 2, "shard": "há 44 formandos que precisam receber prêmios"},
+      {"shard_id": 3, "shard": "cada formando vai ganhar uma moldura que custa $20"},
+      {"shard_id": 4, "shard": "cada moldura também tem um logotipo gravado, o que acrescenta 20% ao custo"},
+      {"shard_id": 5, "shard": "além das molduras, 2 formandos também vão ganhar broches de $5"},
+      {"shard_id": 6, "shard": "cerca de 1/4 desses formandos são oficiais"},
+      {"shard_id": 7, "shard": "os oficiais também vão ganhar cordões que custam $12 cada"}
+    ]
+  },
+  "sharded-GSM8K/642": {
+    "question": "James compra um guarda-roupa novo. Ele compra 10 ternos e 10 calças sociais. Ele também compra 3 camisas sociais por terno. Os ternos custam $750 cada e as calças sociais custam 1/5 desse valor. As camisas sociais custavam $60 cada. Quanto custou tudo?",
+    "answer": "Os ternos custam 750*10=$<<750*10=7500>>7500\nAs calças sociais custam 750/5=$<<750/5=150>>150 cada\nEntão, no total, elas custam 150*10=$<<150*10=1500>>1500\nEle comprou 3*10=<<3*10=30>>30 camisas sociais\nentão ele gasta 30*60=$<<30*60=1800>>1800 em camisas sociais\nAssim, o custo total é 7500+1500+1800=$<<7500+1500+1800=10800>>10,800\n#### 10,800",
+    "shards": [
+      {"shard_id": 1, "shard": "me ajuda a calcular o custo total do guarda-roupa do James"},
+      {"shard_id": 2, "shard": "Ele comprou 10 ternos."},
+      {"shard_id": 3, "shard": "Ele também comprou 10 calças sociais."},
+      {"shard_id": 4, "shard": "Para cada terno, ele comprou 3 camisas sociais."},
+      {"shard_id": 5, "shard": "Cada terno custa $750."},
+      {"shard_id": 6, "shard": "As calças sociais custam 1/5 do custo de um terno."},
+      {"shard_id": 7, "shard": "Cada camisa social custa $60."}
+    ]
+  },
+  "sharded-GSM8K/584": {
+    "question": "90 lentes de contato de uso único vêm em 1 caixa e duram 45 dias para Pete. Cada caixa custa $100.00 e está com 10% de desconto. Se ele comprar 2 caixas de lentes de contato, quanto vai custar cada par de lentes?",
+    "answer": "Cada caixa de lentes custa $100.00 com 10% de desconto, então isso é 100*.10 = $<<100*.10=10.00>>10.00 de desconto\nEntão a caixa custava $100.00 e ele tem $10.00 de desconto, então cada caixa vai custar 100-10 = $<<100-10=90.00>>90.00\nEle compra 2 caixas e cada caixa custa $90.00, então isso é 2*90= $<<2*90=180.00>>180.00\n1 caixa de lentes tem 90 lentes e ele compra 2 caixas, então isso é 90*2 = <<90*2=180>>180 lentes\nEle precisa de 1 lente para cada olho e tem 180 lentes, então isso é 180/2 = <<180/2=90>>90 pares de lentes\nEle gastou $180.00 para ter 90 pares de lentes, então cada par de lentes custa 180/90 = $<<180/90=2.00>>2.00 o par\n#### 2",
+    "shards": [
+      {"shard_id": 1, "shard": "qual é o custo por par de lentes depois da compra do Pete?"},
+      {"shard_id": 2, "shard": "cada caixa contém 90 lentes de contato de uso único"},
+      {"shard_id": 3, "shard": "1 caixa dura 45 dias para Pete"},
+      {"shard_id": 4, "shard": "cada caixa custa $100"},
+      {"shard_id": 5, "shard": "agora há um desconto de 10% nas caixas de lentes de contato"},
+      {"shard_id": 6, "shard": "Pete está comprando 2 caixas de lentes de contato no total"}
+    ]
+  },
+  "sharded-GSM8K/953": {
+    "question": "Kim é sonâmbula e, para monitorar as horas de sono, instala uma câmera no quarto. Kim costuma ir dormir às 10 da noite e acordar às 6 da manhã. Ela é sonâmbula. Um dia, ao rever as câmeras, ela descobre que acordou naquele dia e ficou sonâmbula das 2:15 às 2:38. Também naquele dia ela acordou 5 minutos mais cedo do que o habitual para ir ao banheiro. Quantos minutos ela dormiu na cama naquele dia?",
+    "answer": "Das 24 horas de um dia, 10 da noite representa 22 horas.\nAté 12 da noite, ou 24 horas, Kim dormiu 24 - 22 = <<24-22=2>>2 horas.\nNo total, Kim costuma dormir 2 + 6 = <<2+6=8>>8 horas por dia.\nEm minutos, Kim costuma dormir 8 * 60 = <<8*60=480>>480 minutos.\nKim ficou sonâmbula por um total de 38 - 15 = <<38-15=23>>23 minutos.\nDentro da rotina habitual de sono, Kim ficou sonâmbula ou acordada por um total de 23 + 5 =<<23+5=28>>28 minutos.\nNaquele dia, Kim dormiu na cama por 480 - 28 = <<480-28=452>>452 minutos.\n#### 452",
+    "shards": [
+      {"shard_id": 1, "shard": "me ajuda a calcular quantos minutos Kim dormiu na cama"},
+      {"shard_id": 2, "shard": "Kim costuma ir para a cama às 10 da noite."},
+      {"shard_id": 3, "shard": "ela normalmente acorda às 6 da manhã."},
+      {"shard_id": 4, "shard": "nesse dia específico, ela percebeu que ficou sonâmbula das 2:15 às 2:38 da madrugada."},
+      {"shard_id": 5, "shard": "ela também acordou 5 minutos mais cedo do que o horário habitual de acordar naquele dia"}
+    ]
+  },
+  "sharded-GSM8K/1197": {
+    "question": "John compra 10 garrafas de uísque por um custo total de $600. Ele também compra o dobro de garrafas de conhaque, que custam 50% a mais por garrafa. Quanto ele gasta com tudo?",
+    "answer": "O uísque custou $600/10=$<<600/10=60>>60 cada\nEle comprou 10*2=<<10*2=20>>20 garrafas de conhaque\nCada garrafa custou .5*60=$<<.5*60=30>>30 a mais do que o uísque\nEntão elas custam $60+$30=$<<60+30=90>>90\nIsso significa que ele gastou $90*20=$<<90*20=1800>>1800 em conhaque\nEntão ele gastou um total de $600+$1800=$<<600+1800=2400>>2400\n#### 2400",
+    "shards": [
+      {"shard_id": 1, "shard": "quanto John gasta no total?"},
+      {"shard_id": 2, "shard": "John começou comprando 10 garrafas de uísque."},
+      {"shard_id": 3, "shard": "Ele pagou $600 por todo o uísque."},
+      {"shard_id": 4, "shard": "Em seguida, ele comprou o dobro de garrafas de conhaque em relação ao uísque."},
+      {"shard_id": 5, "shard": "Cada garrafa de conhaque custou 50% a mais do que cada garrafa de uísque."}
+    ]
+  },
+  "sharded-GSM8K/916": {
+    "question": "Julia e Nadine receberam a mesma mesada da mãe. As duas meninas decidiram juntar a mesada para fazer uma surpresa ao pai no aniversário dele. Elas compraram um bolo que custa $11. Também compraram 1 dúzia de balões, vendidos a $0.5 por 2 balões. O dinheiro restante foi usado para comprar 2 potes de sorvete a $7 cada. Quanto a mãe de Julia e Nadine deu para cada uma?",
+    "answer": "Há 12/2 = <<12/2=6>>6 pares de balões em 1 dúzia.\nO custo de comprar uma dúzia de balões foi $0.5 x 6 = $<<0.5*6=3>>3.\nO custo de 2 potes de sorvete foi $7 x 2 = $<<7*2=14>>14.\nO custo total das compras é $11 + $3 + $14 = $<<11+3+14=28>>28.\nEntão a mãe deu a cada uma $28/2 = $<<28/2=14>>14.\n#### 14",
+    "shards": [
+      {"shard_id": 1, "shard": "quanta mesada Julia e Nadine receberam, cada uma?"},
+      {"shard_id": 2, "shard": "Julia e Nadine receberam a mesma mesada da mãe."},
+      {"shard_id": 3, "shard": "as meninas juntaram as mesadas."},
+      {"shard_id": 4, "shard": "elas gastaram $11 em um bolo."},
+      {"shard_id": 5, "shard": "elas compraram uma dúzia de balões."},
+      {"shard_id": 6, "shard": "os balões custavam $0.5 a cada dois."},
+      {"shard_id": 7, "shard": "depois, elas usaram o resto do dinheiro para comprar 2 potes de sorvete."},
+      {"shard_id": 8, "shard": "cada pote de sorvete custou $7."}
+    ]
+  },
+  "sharded-GSM8K/901": {
+    "question": "Calvin está fazendo sopa para a família no jantar. Ele tem uma panela com sopa suficiente para encher quatro tigelas de adulto ou oito tigelas de criança. Ele é adulto e vai comer com a esposa, também adulta, e os dois filhos. Se cada pessoa come uma tigela por refeição, quantas vezes cada criança vai conseguir tomar uma tigela de sopa no almoço com a sopa que sobrar?",
+    "answer": "Quatro tigelas de adulto equivalem a oito tigelas de criança, então cada tigela de adulto é 8 / 4 = <<8/4=2>>2 tigelas de criança.\nCalvin e a esposa vão comer duas tigelas de adulto, então vão comer o equivalente a 2 * 2 = <<2*2=4>>4 tigelas de criança.\nAssim, ele, a esposa e os filhos vão comer 4 + 2 = <<4+2=6>>6 tigelas de criança no jantar.\nDepois do jantar, vão sobrar 8 - 6 = <<8-6=2>>2 tigelas de criança.\nHá 2 crianças, então cada criança vai conseguir comer uma tigela da sopa que sobrou no almoço 2 / 2 = <<2/2=1>>1 vez.\n#### 1",
+    "shards": [
+      {"shard_id": 1, "shard": "quantos almoços as crianças conseguem com a sopa que sobra?"},
+      {"shard_id": 2, "shard": "Calvin está cozinhando sopa para o jantar da família."},
+      {"shard_id": 3, "shard": "a panela de sopa dele serve quatro tigelas de adulto."},
+      {"shard_id": 4, "shard": "em alternativa, a panela encheria oito tigelas de sopa no tamanho de criança."},
+      {"shard_id": 5, "shard": "lembre que Calvin é adulto."},
+      {"shard_id": 6, "shard": "ele vai dividir o jantar com a esposa, que também é adulta."},
+      {"shard_id": 7, "shard": "a família deles inclui duas crianças."},
+      {"shard_id": 8, "shard": "cada pessoa da família come exatamente uma tigela de sopa por refeição."}
+    ]
+  },
+  "sharded-GSM8K/968": {
+    "question": "Andy trabalha na loja profissional de um resort de tênis. Ele tem 12 raquetes que precisam ser encordoadas. 3 delas serão encordoadas com tripa sintética, 5 com corda de poliéster e 4 com um conjunto híbrido (metade tripa sintética, metade corda de poliéster). Quanto tempo Andy vai levar para encordoar todas essas raquetes se ele leva em média 15 minutos com tripa sintética, 22 minutos com corda de poliéster e 18 minutos com conjuntos híbridos?",
+    "answer": "Andy está encordoando 3 raquetes com tripa sintética, então elas vão levar 3 trabalhos de tripa sintética * 15 minutos por trabalho de tripa sintética = <<3*15=45>>45 minutos.\nEle está encordoando 5 raquetes com corda de poliéster, então elas vão levar 5 trabalhos de corda de poliéster * 22 minutos por trabalho de corda de poliéster = <<5*22=110>>110 minutos.\nEle tem 4 trabalhos de corda híbrida, então eles vão levar 4 trabalhos de corda híbrida * 18 minutos por trabalho híbrido = <<4*18=72>>72 minutos.\nEntão Andy deve terminar de encordoar todas as raquetes em 45 minutos + 110 minutos + 72 minutos = <<45+110+72=227>>227 minutos.\n#### 227",
+    "shards": [
+      {"shard_id": 1, "shard": "quanto tempo Andy vai levar para encordoar todas as raquetes?"},
+      {"shard_id": 2, "shard": "Andy trabalha na loja profissional de um resort de tênis."},
+      {"shard_id": 3, "shard": "ele precisa reencordoar 12 raquetes no total."},
+      {"shard_id": 4, "shard": "3 raquetes vão usar corda de tripa sintética."},
+      {"shard_id": 5, "shard": "5 raquetes serão encordoadas com corda de poliéster."},
+      {"shard_id": 6, "shard": "as 4 raquetes restantes terão cordas híbridas, metade tripa sintética e metade poliéster."},
+      {"shard_id": 7, "shard": "encordoar com tripa sintética leva em média 15 minutos por raquete."},
+      {"shard_id": 8, "shard": "encordoar com corda de poliéster leva 22 minutos por raquete."},
+      {"shard_id": 9, "shard": "encordoar uma raquete com um conjunto híbrido leva em média 18 minutos."}
+    ]
+  },
+  "sharded-GSM8K/799": {
+    "question": "Um pão na padaria custa $2. Os bagels custam $1 cada. Quanto a mais custam 3 pães do que 2 bagels?",
+    "answer": "3 pães custam 3 * $2 = $<<3*2=6>>6.\n2 bagels custam 2 * $1 = $<<2*1=2>>2.\nOs pães custam $6 - $2 = $<<6-2=4>>4 a mais do que os bagels.\n#### 4",
+    "shards": [
+      {"shard_id": 1, "shard": "calcule a diferença de preço entre 3 pães e 2 bagels"},
+      {"shard_id": 2, "shard": "cada pão na padaria custa $2"},
+      {"shard_id": 3, "shard": "cada bagel custa $1"},
+      {"shard_id": 4, "shard": "estamos comparando o custo de 3 pães"},
+      {"shard_id": 5, "shard": "com o custo de 2 bagels"}
+    ]
+  },
+  "sharded-GSM8K/929": {
+    "question": "Um ônibus viaja a 60 milhas por hora durante 5 horas. Um carro viaja a 30 milhas por hora durante 8 horas. Quanto o ônibus foi mais longe do que o carro, em milhas?",
+    "answer": "O ônibus viajou 60 milhas por hora * 5 horas = <<60*5=300>>300 milhas.\nO carro viajou 30 milhas por hora * 8 horas = <<30*8=240>>240 milhas.\nEntão, o ônibus foi 300 - 240 = <<300-240=60>>60 milhas mais longe do que o carro.\n#### 60",
+    "shards": [
+      {"shard_id": 1, "shard": "quanto o ônibus viajou a mais do que o carro?"},
+      {"shard_id": 2, "shard": "o ônibus viaja a uma velocidade de 60 milhas por hora"},
+      {"shard_id": 3, "shard": "e o ônibus viajou por um total de 5 horas"},
+      {"shard_id": 4, "shard": "por outro lado, o carro viaja a uma velocidade de 30 milhas por hora"},
+      {"shard_id": 5, "shard": "e o carro ficou na estrada por 8 horas"}
+    ]
+  },
+  "sharded-GSM8K/2": {
+    "question": "Josh decide tentar reformar e revender uma casa. Ele compra uma casa por $80,000 e depois investe $50,000 em reparos. Isso aumentou o valor da casa em 150%. Quanto lucro ele teve?",
+    "answer": "O custo da casa e dos reparos ficou em 80,000+50,000=$<<80000+50000=130000>>130,000\nEle aumentou o valor da casa em 80,000*1.5=<<80000*1.5=120000>>120,000\nEntão o novo valor da casa é 120,000+80,000=$<<120000+80000=200000>>200,000\nEntão ele teve um lucro de 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000",
+    "shards": [
+      {"shard_id": 1, "shard": "qual é o lucro do Josh com a revenda da casa?"},
+      {"shard_id": 2, "shard": "Josh decidiu tentar reformar e revender uma casa."},
+      {"shard_id": 3, "shard": "ele comprou uma casa por $80,000."},
+      {"shard_id": 4, "shard": "ele gastou $50,000 em reparos."},
+      {"shard_id": 5, "shard": "esses reparos aumentaram o valor da casa em 150%."}
+    ]
+  }
+}

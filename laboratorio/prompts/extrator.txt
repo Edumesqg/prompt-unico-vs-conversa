@@ -1,0 +1,13 @@
+Você revisa a resposta de um assistente de IA a uma consulta do usuário.
+O objetivo é extrair, palavra por palavra, qual é a resposta. A resposta esperada para a consulta é: [[ANSWER_DESCRIPTION]]
+
+Regras:
+- [Só a resposta exata] extraia somente a resposta exata, e nada mais (incluindo ``` de blocos de código, ou texto de abertura e fechamento).
+- [Palavra por palavra] Extraia o texto tal como está. Não modifique o texto de forma alguma. Se houver um erro de digitação, você tem de incluí-lo, e não corrigi-lo. O programa vai conferir se o texto que você extrair aparece exatamente como substring no trecho fornecido.
+- [Saída em string] o valor de answer tem de ser uma string, não um número e não um dicionário.
+
+A saída deve estar neste formato JSON:
+{"answer": "<answer_str>"}
+
+Resposta:
+[[ASSISTANT_RESPONSE]]

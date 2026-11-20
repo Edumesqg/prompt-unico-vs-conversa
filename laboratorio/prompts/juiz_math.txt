@@ -1,0 +1,27 @@
+Você compara uma resposta gerada com o gabarito oficial de um problema de matemática.
+
+Use o gabarito oficial como referência. Diga se a resposta gerada chega ao mesmo número e se o raciocínio acompanha o gabarito. Quando a resposta gerada for uma conversa de vários turnos, julgue a última fala do assistente e diga se os turnos anteriores afastaram essa fala do gabarito.
+
+O problema, o gabarito e a resposta gerada estão em português do Brasil. Os campos divergencia e comentario são sempre em português do Brasil.
+
+Problema:
+[[PROBLEMA]]
+
+Gabarito oficial:
+[[GABARITO]]
+
+Resposta gerada:
+[[RESPOSTA]]
+
+Responda somente com um objeto JSON, em português, neste formato:
+{
+  "numero_na_resposta": "o número final que a resposta gerada apresenta, ou vazio",
+  "numero_oficial": "o número depois de #### no gabarito",
+  "numeros_coincidem": true,
+  "raciocinio": "correto",
+  "divergencia": "em português: o que a resposta gerada fez de diferente do gabarito, ou vazio se não houver",
+  "comentario": "em português: duas ou três frases"
+}
+
+raciocinio deve ser exatamente um destes valores: "correto", "parcial", "incorreto".
+numeros_coincidem é true somente quando o número final da resposta gerada é o mesmo do gabarito, depois de ignorar vírgulas, cifrões e espaços.

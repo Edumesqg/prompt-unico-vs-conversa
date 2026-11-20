@@ -1,0 +1,27 @@
+Você revisa uma conversa de vários turnos entre um usuário e um assistente, e recebe o último turno da conversa.
+
+Esta é a especificação inicial do problema que o sistema tenta resolver:
+[[INITIAL_SHARD]]
+
+Especificação:
+[[SHARDS]]
+
+Classifique a resposta do assistente segundo o tipo de resposta:
+- `answer_attempt`: a resposta contém uma tentativa completa de resposta à pergunta do usuário (não é um modelo nem uma hipótese), que pode ser extraída palavra por palavra. Veja a descrição da resposta específica da tarefa.
+- `clarification`: a resposta é curta (menos de 100 palavras) e contém uma única pergunta ao usuário que indaga diretamente um aspecto da consulta. Um turno de esclarecimento não pode ser longo (veja `discussion`), não pode conter uma pergunta vaga (veja `discussion`) e não pode conter várias perguntas (veja `interrogation`).
+- `interrogation`: a resposta contém várias perguntas ao usuário, às vezes em lista.
+- `discussion`: a resposta discute a pergunta em detalhe, sem dar uma resposta final, sem fazer uma pergunta específica de esclarecimento e sem recusar. A resposta pode ou não conter uma pergunta vaga (por exemplo, "Em que mais posso ajudar?").
+- `hedge`: a resposta contém vários candidatos de resposta com base em hipóteses (ses) ou em ramificações (caso 1, caso 2), com as descrições correspondentes.
+- `refuse`: a resposta contém uma recusa explícita ou implícita a responder a pergunta do usuário, sem pergunta de acompanhamento nem pedido.
+- `missing`: a resposta está vazia.
+
+A saída deve estar neste formato JSON:
+{"response_type": "refuse|missing|answer_attempt|hedge|clarification|interrogation|discussion"}
+
+Regras:
+- O assistente dar uma ideia de como a resposta poderia ser não é uma resposta final. Escolha `answer_attempt` somente se a conversa pudesse terminar neste estágio com o usuário tendo uma resposta inteiramente final para o problema que formulou.
+- [Resposta específica da tarefa] [[ANSWER_DESCRIPTION]]
+- O valor de `response_type` tem de ser exatamente um destes tokens: refuse, missing, answer_attempt, hedge, clarification, interrogation, discussion.
+
+Último turno da conversa:
+[[CONVERSATION_SO_FAR]]
