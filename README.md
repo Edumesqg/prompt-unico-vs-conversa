@@ -6,9 +6,7 @@
 
 **Um laboratório interativo para explorar como a forma de apresentar informações pode influenciar as respostas de modelos de inteligência artificial.**
 
-[**Ler o artigo original**](https://arxiv.org/abs/2505.06120) · [**Consultar o projeto de referência**](https://github.com/microsoft/lost_in_conversation)
-
-A demonstração online entra no primeiro link desta página assim que o aplicativo for publicado. Até lá, a seção [Execução local](#execução-local) sobe o laboratório na sua máquina. O teste **Na mão** não pede chave de API.
+[**Experimentar o laboratório**](https://prompt-unico-vs-conversa-copiar-fhqycdxtvfnb4husuzkn7g.streamlit.app/) · [**Ler o artigo original**](https://arxiv.org/abs/2505.06120) · [**Consultar o projeto de referência**](https://github.com/microsoft/lost_in_conversation)
 
 </div>
 
@@ -218,6 +216,6 @@ Laban, P.; Hayashi, H.; Zhou, Y.; Neville, J. (2025). *LLMs Get Lost in Multi-Tu
 
 **Não basta saber se uma IA consegue resolver o problema. Também vale observar como ela se comporta enquanto recebe as informações.**
 
-[**Rode o laboratório na sua máquina**](#execução-local)
+[**Experimente o laboratório**](https://prompt-unico-vs-conversa-copiar-fhqycdxtvfnb4husuzkn7g.streamlit.app/)
 
 </div>
