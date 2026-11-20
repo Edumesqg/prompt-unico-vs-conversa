@@ -154,8 +154,8 @@ Os enunciados, os fragmentos e os gabaritos permanecem em **inglês**, conforme 
 **Pré-requisitos:** Python 3.10 ou superior.
 
 ```bash
-git clone https://github.com/Edumesqg/prompt-unico-vs-conversa-Copiar.git
-cd prompt-unico-vs-conversa-Copiar
+git clone https://github.com/Edumesqg/prompt-unico-vs-conversa.git
+cd prompt-unico-vs-conversa
 pip install -r requirements.txt
 python -m streamlit run laboratorio/app.py
 ```
